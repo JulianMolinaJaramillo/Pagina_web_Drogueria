@@ -1,0 +1,571 @@
+:root {
+    --white: #FFF;
+    --gray: #E6E9EF;
+    --black: #000;
+    --rosaFuerte: #ed1e79;
+    --rosaFuerte2: #ff177d;
+    --pink: #ff7d96;
+    --yellow: #FFFFDD;
+    --teal: #004492;
+    --morado: #b78ce5;
+    --morado2: #c68ee8;
+    --blue: #00a6e5;
+    --blue2: #00a8e9;
+    --naranja: #f15a24;
+    --naranja2: #ff591a;
+    --verde: #22b573; 
+    --verde2: #00b770;
+}
+body {
+    margin: 0;
+    background-color: var(--gray);
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .ContenedorTotal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 2000px;
+    width: 100%;
+    border: 1px solid var(--white);
+
+  }
+
+  p{
+      color: black;
+      font-size: 14px;
+      margin-left: 20PX;
+      text-align: left;
+  }
+
+  img{
+    border: 0.5px solid var(--white);
+  }
+
+  .imglogin{
+    margin-top: 6px;
+  }
+
+  .imgPrincipal{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--black);
+  }
+
+
+  button{
+    width: 10%;
+    margin: 3px;
+    height: 70%;
+    align-items: center;
+    text-align: center;
+    background-color: var(--white);
+    padding: 1px;
+  
+  }
+
+  .BotonOpciones{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--blue);
+  }
+
+  .imgOpciones{
+    border: 0.5px solid var(--blue);
+
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonOpciones1{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--pink);
+  }
+
+  .imgOpciones1{
+    border: 0.5px solid var(--pink);
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonOpciones2{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--morado);
+  }
+
+  .imgOpciones2{
+    border: 0.5px solid var(--morado);
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonOpciones3{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--naranja);
+  }
+
+  .imgOpciones3{
+    border: 0.5px solid var(--naranja);
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonOpciones4{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--verde);
+  }
+
+  .imgOpciones4{
+    border: 0.5px solid var(--verde);
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonOpciones5{
+    text-align: center;
+    width: 98%;
+    height: 90%;
+    background-color: var(--rosaFuerte);
+  }
+
+  .imgOpciones5{
+    border: 0.5px solid var(--rosaFuerte);
+    width: 80%;
+    height: 92%;
+  }
+
+  .BotonDestacados{
+    border-radius: 10px;
+    border: 0.5px solid var(--white);
+    width: 50%;
+    text-align: center;
+    background-color: var(--teal);
+    height: 90%;
+    margin-left: 40px;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: var(--white);
+    border: 0.5px solid var(--black);
+    text-decoration: none;
+    width: 70%;
+    margin: 3px;
+    height: 40%;
+    text-align: center;
+}
+
+  input{
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 100%;
+    height: 50%  
+  }
+
+  h2 {
+    margin:30px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+  }
+  h1 {
+    text-align: center;
+    font-size: 19px;
+    color: #FFF;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 19px;
+    color: var(--teal);
+  }
+
+  .pqr{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 19px;
+    color: var(--teal);
+  }
+
+  .containerUno {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--black);
+    width: 100%;
+    height: 7%;
+  }
+  .containerDos{
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      background-color: var(--black);
+      width: 30%;
+      height: 100%; 
+  }
+
+  .containerCentro{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--white);
+    width: 40%;
+    height: 100%; 
+  }
+  .containerTres{
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      height: 2%;
+      background-color: var(--gray);
+  }
+
+  .containerCuatro{
+    display: inline-flex;   
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 20%;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+}
+
+.containerCinco{
+  background-color: var(--gray);
+  width: 100%;
+  height: 90%;
+  align-items: center;
+}
+
+.containerSeis{
+  display: inline-flex;  
+  background-color: var(--black);
+  
+  align-items: center;
+  width: 100%;
+  height: 3%; 
+}
+
+.containerSiete{
+  display: inline-flex;  
+  flex-direction: row;
+  background-color: var(--white);
+  width: 100%;
+  height: 150%; 
+}
+
+.containerOcho{
+  display: inline-flex;  
+  flex-direction: row;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%; 
+}
+
+.containerNueve{
+  display: inline-flex;  
+  flex-direction: row;
+  background-color: var(--white);
+  width: 100%;
+  height: 20%; 
+}
+
+.containerDiez{
+  display: inline-flex;  
+  flex-direction: row;
+  background-color: var(--white);
+  width: 100%;
+  height: 190%; 
+}
+
+  .item {
+    border: 3px solid var(--white);
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  
+
+  .item:nth-child(1) {
+    background-color: var(--white);
+    text-align: left;
+    align-items: flex-start;
+    width: 30%;
+    height: 120%;
+  }
+
+  .item:nth-child(2) {
+    background-color: var(--white);
+    width: 40%;
+    height: 120%;
+    text-align: center;
+  }
+  
+  .item:nth-child(3) {
+    background-color: var(--white);
+    text-align: center;
+    height: 120%;
+    width: 30%;
+  }
+  
+  .item:nth-child(4) {
+      background-color: var(--blue);
+      text-align: center;
+  }
+
+  .itemBienvenido{
+    background-color: var(--white);
+    height: 100%;
+    width: 25%;
+  }
+
+  .itemLogin{
+    background-color: var(--white);
+    text-align: center;
+    height: 100%;
+    width: 15%;
+  }
+
+  .itemLoginBack{
+    background-color: var(--white);
+    height: 100%;
+    width: 85%;
+  }
+
+  .itemBuscar{
+    margin-bottom: 40px;
+    height: 100%;
+    width: 10%;
+    text-align: right;
+  }
+
+  .itemBuscarBack{
+    background-color: var(--white);
+    height:50%;
+    text-align: right;
+    width: 85%;
+    padding: 30px;
+  }
+
+  .item1{
+    background-color: var(--gray);
+    border: 3px solid var(--gray);
+    height: 100%;
+    width: 10%;
+  }
+
+  .item2{
+    background-color: var(--blue);
+    height: 100%;
+    width: 15%;
+  }
+  .item3{
+    background-color: var(--pink);
+    height: 100%;
+    width: 15%;
+  }
+  .item4{
+    background-color: var(--morado);
+    height: 100%;
+    width: 15%;
+  }
+  .item5{
+    background-color: var(--naranja);
+    height: 100%;
+    width: 15%;
+  }
+  .item6{
+    background-color: var(--verde);
+    height: 100%;
+    width: 15%;
+  }
+  .item7{
+    background-color: var(--rosaFuerte);
+    height: 100%;
+    width: 15%;
+  }
+
+  .itemPrincipal{
+    height: 100%;
+    width: 50%;
+  }
+
+  .itemDestacados{
+    height: 100%;
+    width: 25%;
+    background-color: var(--teal);
+  }
+
+  .itemDestacadoses{
+    background-color: var(--teal);   
+    height: 100%;
+    width: 50%;
+  }
+
+  .itemProducto{
+    border-radius: 30px;
+    margin: 10px;
+    background-color: var(--white);   
+    height: 90%;
+    width: 50%;
+    border: 2px solid var(--teal);
+  }
+
+  .itemProducto1{
+    background-color: var(--white);   
+    height: 100%;
+    width: 50%;
+  }
+
+  .imgProducto{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .itemProductoEnlaces{
+    height: 100%;
+    width: 30%;
+  }
+
+  .itemProductoEnlaces1{
+    border: 1px solid var(--blue2);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--blue2); 
+  }
+
+  .imgCuidados1{
+    border: 1px solid var(--blue2);
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemProductoEnlaces2{
+    border: 1px solid var(--pink);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--pink); 
+  }
+
+  .imgCuidados2{
+    border: 1px solid var(--pink);
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemProductoEnlaces3{
+    border: 1px solid var(--morado2);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--morado2); 
+  }
+
+  .imgCuidados3{
+    border: 1px solid var(--morado2);
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemProductoEnlaces4{
+    border: 1px solid var(--naranja2);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--naranja2); 
+  }
+
+  .imgCuidados4{
+    border: 1px solid var(--naranja2);
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemProductoEnlaces5{
+    border: 1px solid var(--verde2);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--verde2); 
+  }
+
+  .imgCuidados5{
+    border: 1px solid var(--verde2);
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemProductoEnlaces6{
+    border: 1px solid var(--rosaFuerte2);
+    padding: 1px;
+    text-align: right;
+    margin: 10px;
+    height: 60%;
+    width: 40%;
+    background-color: var(--rosaFuerte2); 
+  }
+
+  .imgCuidados6{
+    border: 1px solid var(--rosaFuerte2);
+    height: 100%;
+    width: 90%;
+  }
+
+  .imgpqr{
+    height: 80%;
+    width: 80%;
+  }
+
+  .itemPie{
+    height: 100%;
+    width: 20%;
+  }
+
+  .itemPie1{
+    border-radius: 10px;
+    border-top: 5px solid var(--teal);;
+    background-color: var(--white); 
+    height: 100%;
+    width: 90%;
+  }
+
+  .itemPie2{
+    height: 100%;
+    width: 15%;
+  }
+
+  .itemPie3{
+    background-color: var(--white); 
+    height: 100%;
+    width: 20%;
+  }
